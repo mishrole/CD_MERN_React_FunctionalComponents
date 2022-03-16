@@ -1,6 +1,7 @@
 import './App.css';
 import Wrapper from './components/Wrapper';
 import UserForm from './components/UserForm';
+import MovieForm from './components/MovieForm';
 
 function App() {
   return (
@@ -9,6 +10,9 @@ function App() {
       <br />
       <h1>User Form</h1>
       <UserForm />
+      <br />
+      <h1>Movie Form</h1>
+      <MovieForm />
     </div>
   );
 }
